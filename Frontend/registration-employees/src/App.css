@@ -1,0 +1,32 @@
+
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, select, textarea {
+  margin: 5px;
+  padding: 5px;
+  width: calc(100% - 12px);
+}
