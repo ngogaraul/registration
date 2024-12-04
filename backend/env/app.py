@@ -72,5 +72,6 @@ async def register_employee(request):
     except Exception as e:
         return json({"error": str(e)}, status=500)
 
+
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000)
